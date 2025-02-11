@@ -1,13 +1,13 @@
 body {
-    background-color: #110e0e;
+    background-color: #0a1f44;
     color: white;
     margin: 0;
-    overflow-x: hidden; /* Oculta solo el scroll horizontal */
+    overflow-x: hidden;
     max-width: 100%;
 }
 
 .navbar {
-    background-color: #110e0e;
+    background-color: #0a1f44;
     padding: 15px 0;
 }
 
@@ -25,7 +25,7 @@ body {
 }
 
 .navbar-nav .nav-link:hover {
-    color: #f40000;
+    color: #00bfff;
 }
 
 .nav-item.dropdown .nav-link {
@@ -36,11 +36,11 @@ body {
 }
 
 .nav-item.dropdown .nav-link:hover {
-    color: #f40000;
+    color: #00bfff;
 }
 
 .dropdown-menu {
-    background-color: #110e0e;
+    background-color: #0a1f44;
     border: none;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
 }
@@ -53,23 +53,22 @@ body {
 }
 
 .dropdown-item:hover {
-    color: #f40000;
+    color: #00bfff;
     background-color: transparent;
 }
 
-
 .row {
     display: flex;
-    min-height: 100vh; /* Ajusta la altura para ocupar toda la pantalla */
+    min-height: 100vh;
 }
 
 .col-md-4 {
-    width: 30%; /* Reduce el ancho de la primera columna */
-    height: 90vh; /* Reduce ligeramente la altura */
+    width: 30%;
+    height: 90vh;
 }
 
 .profile-card {
-    margin: 20px; /* Agrega margen alrededor del contenido */
+    margin: 20px;
     background: white;
     color: black;
     padding: 20px;
@@ -79,33 +78,33 @@ body {
 }
 
 .profile-card img {
-    margin: 10px auto; /* Centra y reduce el espacio de la imagen */
-    width: 25vw; /* Reduce el tamaño de la imagen */
+    margin: 10px auto;
+    width: 25vw;
 }
 
 .profile-card h2 {
-    margin: 10px 0; /* Reduce el espacio alrededor del título */
+    margin: 10px 0;
     font-family: "Outfit", serif;
     font-weight: normal;
     font-size: 28px;
 }
 
 .lead, .profile-card p {
-    margin: 10px 0; /* Ajusta el margen del texto para reducir el espacio */
+    margin: 10px 0;
     font-family: "Outfit", serif;
-    color: #828080;
+    color: #a1b5d8;
 }
 
 .col-md-8 {
-    overflow-y: auto; /* Permite el scroll sin mostrar la barra */
-    min-height: 100vh; /* Permite que crezca si el contenido es mayor */
+    overflow-y: auto;
+    min-height: 100vh;
     height: auto;
-    scrollbar-width: none; /* Oculta la barra en Firefox */
-    -ms-overflow-style: none; /* Oculta la barra en Internet Explorer y Edge */
+    scrollbar-width: none;
+    -ms-overflow-style: none;
 }
 
 .col-md-8::-webkit-scrollbar {
-    display: none; /* Oculta la barra en Chrome, Safari y Opera */
+    display: none;
 }
 
 .highlight, .fw-bold {
@@ -115,7 +114,7 @@ body {
 }
 
 .highlight {
-    color: #2c2c2c;
+    color: #5a7fc4;
 }
 
 .navbar-toggler {
@@ -133,22 +132,22 @@ body {
 
 .social-links {
     display: flex;
-    justify-content: center; /* Centra los íconos */
-    gap: 15px; /* Espacio entre los íconos */
+    justify-content: center;
+    gap: 15px;
 }
 
 .social-icon {
-    font-size: 2rem; /* Tamaño de los íconos */
-    color: #828080; /* Color de los íconos */
+    font-size: 2rem;
+    color: #a1b5d8;
     transition: color 0.3s ease;
 }
 
 .social-icon:hover {
-    color: #f40000; /* Cambia el color al pasar el mouse */
+    color: #00bfff;
 }
 
 .formation-list {
-    list-style-type: none; /* Elimina los puntos de la lista */
+    list-style-type: none;
     padding: 0;
     margin: 20px 0;
 }
@@ -156,32 +155,32 @@ body {
 .formation-list li {
     font-family: "Outfit", serif;
     color: white;
-    margin-bottom: 20px; /* Espacio entre los elementos de la lista */
+    margin-bottom: 20px;
 }
 
 .formation-list a {
-    text-decoration: none; /* Elimina el subrayado */
-    color: inherit; /* Hereda el color del texto, en este caso blanco */
-    font-size: 1.2rem; /* Tamaño similar al de los años */
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.2rem;
 }
 
 .formation-list a:hover {
-    color: #f40000ad; /* Resalta el enlace al pasar el ratón */
+    color: #00bfff;
 }
 
 .cabecera {
-    font-size: 2rem; /* Tamaño más grande para el nombre del grado */
+    font-size: 2rem;
     font-weight: bolder;
 }
 
 .subcabecera {
-    font-size: 1.5rem; /* Tamaño para la especialización */
-    color: #828080;
+    font-size: 1.5rem;
+    color: #a1b5d8;
 }
 
 .destacado {
-    font-size: 1.2rem; /* Tamaño para el año */
-    color: #f40000; /* Resalta el año con otro color */
+    font-size: 1.2rem;
+    color: #00bfff;
     margin-top: 5px;
 }
 
@@ -189,9 +188,9 @@ body {
     display: inline-flex;
     align-items: flex-end;
     justify-content: space-between;
-    width: 20rem; /* Aumenta el tamaño del botón */
+    width: 20rem;
     height: 10rem;
-    background-color: #f62424dd;
+    background-color: #0066cc;
     color: white;
     padding: 20px;
     border-radius: 10px;
@@ -203,7 +202,7 @@ body {
 }
 
 .download-btn:hover {
-    background-color: #df3f3f;
+    background-color: #004c99;
 }
 
 .download-btn .arrow {
@@ -217,26 +216,25 @@ body {
     transition: transform 0.3s ease;
 }
 
-
 .download-btn:hover .arrow {
-    transform: translateX(5px); /* Desplaza la flecha hacia la derecha */
+    transform: translateX(5px);
 }
 
-#contact-form button{
-    background-color: #f40000;
+#contact-form button {
+    background-color: #0066cc;
     border: none;
 }
 
-#contact-form button:hover{
-    background-color: #f40000aa;
+#contact-form button:hover {
+    background-color: #004c99;
 }
 
-@media (max-width: 991px) { /* Cambiar a 991px */
+@media (max-width: 991px) {
     .col-md-4 {
         min-height: 300px;
     }
     .col-sm-12, .col-md-4 {
-        width: 100%; /* Asegura que la columna ocupe todo el ancho */
+        width: 100%;
     }
     .profile-card {
         margin-bottom: 20px;
@@ -244,16 +242,13 @@ body {
     .profile-card img {
         width: 60%;
     }
-    /* .info {
-        margin-top: 180rem,;
-    } */
     .d-flex {
         flex-wrap: wrap;
     }
 }
 
 @media (min-width: 753px) and (max-width: 991px) {
-    .info{
+    .info {
         margin-top: 10rem;
     }
 }
